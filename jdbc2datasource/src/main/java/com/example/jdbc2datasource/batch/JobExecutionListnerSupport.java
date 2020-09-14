@@ -25,9 +25,6 @@ public class JobExecutionListnerSupport implements JobExecutionListener {
 	@Override
 	public void afterJob(JobExecution jobExecution) {
 		System.out.println("After job");
-		System.out.println(jobExecution.getJobId());
-		System.out.println( jobExecution.getJobConfigurationName());
-		System.out.println(jobExecution.getJobInstance());
 		log.info("started");
 		log.debug("Status: {}", jobExecution.getStatus());
 		log.debug("getId {}", jobExecution.getId());
