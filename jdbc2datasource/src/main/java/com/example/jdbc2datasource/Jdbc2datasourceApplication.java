@@ -8,7 +8,6 @@ public class Jdbc2datasourceApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(Jdbc2datasourceApplication.class, args);
-		//Changes in github
 	}
 
 }
